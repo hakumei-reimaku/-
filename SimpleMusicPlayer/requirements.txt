@@ -1,0 +1,14 @@
+# SimpleMusicPlayer 运行/打包依赖
+# Python 3.8+
+
+# GUI 框架
+PyQt5>=5.15.0
+
+# 音频播放
+pygame>=2.1.0
+
+# 读取音频元数据(时长、格式等)
+mutagen>=1.45.0
+
+# 打包为 Windows exe
+pyinstaller>=5.13.0
